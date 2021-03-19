@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Countdown Timer</title>
+
+</head>
+
+<body>
+    <h1>Countdown for my Birthday</h1>
+
+    <button class="show-cd" id="btn" onclick=showTimer(),hideButton()>
+        Start the Countdown
+    </button>
+
+    <div class="cd" id="show">
+
+        <div class="cd-c days-c">
+            <p class="text" id="days">0</p>
+            <p>Days</p>
+        </div>
+
+        <div class="cd-c hours-c">
+            <p class="text" id="hours">0</p>
+            <p>Hours</p>
+        </div>
+
+        <div class="cd-c minutes-c">
+            <p class="text" id="minutes">0</p>
+            <p>Minutes</p>
+        </div>
+
+        <div class="cd-c seconds-c">
+            <p class="text" id="seconds">0</p>
+            <p>Seconds</p>
+        </div>
+
+        <script src="scripts.js"></script>
+
+    </div>
+
+</body>
+</html>
